@@ -166,22 +166,18 @@ function Index() {
             </ul>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="relative mx-auto w-full max-w-sm">
+            <div className="absolute -inset-3 -z-10 rounded-[2rem] bg-primary/15 blur-2xl" />
             <img
-              src={beauty}
-              alt="Skincare product held in a plant-filled living room"
-              width={720}
-              height={1280}
-              className="mt-8 aspect-[9/16] w-full rounded-3xl object-cover"
+              src={portrait}
+              alt="Maira laughing with a macaw perched on her shoulder"
+              width={1080}
+              height={1080}
+              className="aspect-square w-full rounded-[2rem] border border-border/60 object-cover shadow-xl"
             />
-            <img
-              src={pet}
-              alt="Dog resting on a bed beside a pet product"
-              width={720}
-              height={1280}
-              loading="lazy"
-              className="aspect-[9/16] w-full rounded-3xl object-cover"
-            />
+            <p className="mt-3 text-center text-xs text-muted-foreground">
+              Lifestyle, on-camera — and yes, that's her bird.
+            </p>
           </div>
         </div>
       </section>
