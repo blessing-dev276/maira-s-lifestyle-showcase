@@ -7,6 +7,8 @@ import drink from "@/assets/work-drink.jpg";
 import pet from "@/assets/work-pet.jpg";
 import food from "@/assets/work-food.jpg";
 import lifestyle from "@/assets/work-lifestyle.jpg";
+import portraitAsset from "@/assets/maira-portrait.jpg.asset.json";
+const portrait = portraitAsset.url;
 
 export const Route = createFileRoute("/")({
   component: Index,
